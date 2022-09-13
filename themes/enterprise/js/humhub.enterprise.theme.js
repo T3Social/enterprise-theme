@@ -257,7 +257,7 @@ humhub.module('enterprise.theme', function (module, require, $) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
 
-            if ($('#wrapper').css('padding-left') == "250px") {
+            if (!$('#wrapper').hasClass('toggled')) {
                 $('#rp-nav').css('display', 'block');
                 $('#topbar-first').css('padding-left', '0');
                 $('#topbar-first div').removeClass('hidden');

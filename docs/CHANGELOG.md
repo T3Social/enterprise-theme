@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.8.4 (September 9, 2022)
+-----------------------
+- Fix #31: Fix hiding of overlay on different sidebar sizes
+
 1.8.3 (August 26, 2022)
 -----------------------
 - Fix #30: Hiding of overlay after resize window

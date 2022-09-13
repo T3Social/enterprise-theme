@@ -3,7 +3,7 @@
     "name": "Enterprise Theme",
     "description": "HumHub Enterprise Theme",
     "keywords": ["enterprise", "theme", "design", "categories"],
-    "version": "1.8.2",
+    "version": "1.8.3",
     "humhub": {
         "minVersion": "1.11"
     },

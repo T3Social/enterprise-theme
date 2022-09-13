@@ -260,6 +260,9 @@ humhub.module('enterprise.theme', function (module, require, $) {
             if ($('#wrapper').css('padding-left') == "250px") {
                 $('#rp-nav').css('display', 'block');
                 $('#topbar-first').css('padding-left', '0');
+                $('#topbar-first div').removeClass('hidden');
+                $('.space-nav .nav').removeClass('hidden');
+                $('#rsp-backdrop').remove();
 
                 if (mq.matches) {
                     $('#sidebar-wrapper').css('touch-action', '');
@@ -269,16 +272,9 @@ humhub.module('enterprise.theme', function (module, require, $) {
                             view.preventSwipe(false);
                         },500);
                     }
-
-
-                    $('#topbar-first div').removeClass('hidden');
-                    $('.space-nav .nav').removeClass('hidden');
-                    $('#rsp-backdrop').remove();
                 } else {
                     _removeNiceScroll();
                 }
-
-
             } else {
                 $('#rp-nav').css('display', 'none');
                 $('#topbar-first').css('padding-left', '250px');

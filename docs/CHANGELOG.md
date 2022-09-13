@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.8.3 (August 26, 2022)
+-----------------------
+- Fix #30: Hiding of overlay after resize window
+
 1.8.2 (May 6, 2022)
 -------------------
 - Fix #22: Fix module icon style, Rebuild Theme CSS
